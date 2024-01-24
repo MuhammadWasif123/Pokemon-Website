@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+
+font-family:"Flexo-Font";
+src: url("/assets/fonts/Flexo-CapsDEMO.otf");
+
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-container {
+  height: 6rem;
+  background-color: #f5f5f5;
+  border: 0.2rem solid #dedede;
+}
+
+.nav-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-inner-container > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  position: absolute;
+  top: -1rem;
+}
+
+.nav-inner-container > ul > li {
+  border: 0.15rem solid rgb(217 210 210);
+  padding: 0.48rem 0.8rem;
+}
+
+.nav-item-1 {
+  background-color: #fff;
+  box-shadow: 0 0 6px 2px #666666;
+}
+
+/* Header Styling */
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 103rem;
+}
+
+.header .box {
+    padding: 1.5rem 4rem;
+    cursor:pointer;
+    transition: all 0.15s ease-in;
+    
+
+}
+
+.header .box > span {
+    font-size: 3.2rem;
+    color: grey;
+    position: absolute;
+    top: 8rem;
+
+}
+
+.one {
+  border-bottom: 0.5rem solid #919191;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.two {
+  border-bottom: 0.5rem solid #e3350d;
+}
+
+.three {
+  border-bottom: 0.5rem solid #ee6b2f;
+}
+.four {
+    border-bottom: 0.5rem solid #e6bc2f;
+  }
+
+.five{
+
+    border-bottom: 0.5rem solid #4dad5b;
+
+}
+
+.six{
+    border-bottom: 0.5rem solid #30a7d7;
+
+    
+}
+
+.seven{
+
+    border-bottom: 0.5rem solid #1b53ba;
+    border-bottom-right-radius: 0.5rem
+
+}
+
+.one:hover span{
+color:#fff;
+
+}
+
+
+.one:hover{
+background-color:#919191;
+
+
+}
+
+.two:hover span{
+    color:#fff;
+    
+    }
+    
+.two span{
+padding-left:1rem;
+
+}
+    
+.two:hover{
+    background-color:#e3350d;
+    
+
+}
+
+.three:hover span{
+    color:#fff;
+    
+    }
+    
+.three span{
+
+    padding-left: 3rem;
+}
+
+    
+.three:hover{
+    background-color:#ee6b2f;
+    
+
+}
+
+.four:hover span{
+    color:#fff;
+    
+    }
+    
+.four span{
+padding-left:2rem;
+
+}
+    
+.four:hover{
+    background-color:#e6bc2f;
+    
+
+}
+
+.five:hover span{
+    color:#fff;
+    
+    }
+
+.five span{
+padding-left:1rem;
+
+}    
+
+.five:hover{
+    background-color:#4dad5b;
+    
+
+}
+.six:hover span{
+    color:#fff;
+    
+    }
+       
+.six span{
+padding-left:3rem;
+
+}
+.six:hover{
+    background-color:#30a7d7;
+    
+
+}
+.seven:hover span{
+    color:#fff;
+    
+    }
+       
+.seven:hover{
+    background-color:#1b53ba;
+
+}
+
+.box:hover .text{
+color:#fff;
+
+
+}
+
+
+.box .text{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color:grey;
+    position:relative;
+    top:2rem;
+    text-align:center;
+
+
+}
+
+/* main section styling */
+
+.main-container{
+    border-left: 4rem solid #313635;
+    border-right: 4rem solid #313635;
+
+}
+
+.background-container{
+background-image: url(/assets/images/background.png);
+height:90vh;
+border:0.2rem solid red;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center center;
+background-attachment: fixed;
+
+
+
+}
+
+.background-container .side-icon{
+       width: 5.8rem;
+       height: 15rem;
+       display: flex;
+       flex-direction: column;
+       background-color: #565454;
+       position: fixed;
+       top: 19rem;
+       border-top-right-radius: 1.9rem;
+       border-bottom-right-radius: 1.5rem;
+
+}
+
+.background-container .side-icon .side-login{
+    width: 100%;
+    background-color: #54b564;
+    text-align: center;
+    border-top-right-radius: 2rem;
+    position: relative;
+    bottom: 0.1rem;
+    left: -1.1px;
+    text-decoration: none;
+
+}
+
+.background-container .side-icon .side-login p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+
+
+
+.background-container .side-icon .side-login img{
+    width: 54%;
+    position: relative;
+    top: 1.2rem
+
+
+}
+
+
+.background-container .side-icon .side-search{
+    position: relative;
+    top: 2rem;
+
+}
+
+.background-container .side-icon .side-search img{
+    width: 52%;
+    position: relative;
+    left: 1.5rem;
+    font-weight: bolder;
+
+}
+
+
+/* main content styling */
+.main-img-content{
+border:0.2rem solid #000;
+display: flex;
+justify-content: center;
+position:relative;
+
+
+}
+
+.main-img{
+/* border:0.2rem solid pink; */
+position: absolute;
+top: 4rem;
+left: 18rem;
+
+
+}
+
+/* paragraph section styling */
+.main-img .main-para{
+    font-family: "Flexo-Font";
+    text-transform: lowercase;
+    font-size: 2.3rem;
+    background-color: #f56505;
+    color: #fff;
+    position: relative;
+    bottom: 2.48rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.main-img a img{
+width:100%;
+
+
+}
+
+.main-img .main-second-para{
+    font-size: 2rem;
+    background-color: #f56505;
+    padding: 0.7rem 2rem;
+    padding-right: 6rem;
+    color: #393939;
+    position: relative;
+    bottom: 5rem;
+    padding-bottom: 3rem;
+}
